@@ -9,15 +9,16 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Auth\Notifications\ResetPassword;
 use Illuminate\Notifications\Messages\MailMessage;
+use Laravel\Sanctum\HasApiTokens;
 
 class User extends Authenticatable
 {
-    use HasFactory, Notifiable;
+    use HasApiTokens ,HasFactory, Notifiable;
     protected $fillable = [
-        'name',
+        'name', 
+        'email',
         'username',
         'role',
-        'email',
         'password',
     ];
 
