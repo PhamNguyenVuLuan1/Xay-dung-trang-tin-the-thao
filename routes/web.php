@@ -1,11 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Auth;
 use App\http\Controllers\UserController;
-use App\Http\Controllers\AdminController;
-
+use App\Http\Controllers\HomeController;
 use app\Http\Controllers\ChuDeController;
 use app\Http\Controllers\BaiVietController;
 use app\Http\Controllers\BinhLuanBaiVietController;

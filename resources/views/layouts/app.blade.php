@@ -34,7 +34,7 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('admin.nguoidung') }}"><i class="fa-light fa-fw fa-users"></i> Tài khoản</a>
+                            <a class="nav-link" href="{{ route('admin.users') }}"><i class="fa-light fa-fw fa-users"></i> Tài khoản</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('admin.chude') }}"><i class="fa-light fa-fw fa-list-check"></i> Chủ đề</a>
